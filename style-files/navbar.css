@@ -10,6 +10,7 @@ nav {
 }
 
 .img-search {
+  margin-left: 4vw;
   width: 50%;
   display: flex;
   justify-content: flex-end;
@@ -17,6 +18,7 @@ nav {
 }
 
 .hamburger {
+  margin-right: 0.9vw;
   display: none;
   height: 1.5rem;
   width: 1.5rem;
