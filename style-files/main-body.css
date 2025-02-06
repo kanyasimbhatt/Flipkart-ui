@@ -40,13 +40,20 @@ h3 {
   justify-content: center;
 }
 
+.new-beginning-img {
+  height: 20vw;
+  width: 13vw;
+}
+
 .deals-heading {
+  font-size: 1vw;
   display: flex;
   align-items: center;
   border-bottom: 1px solid rgb(218, 216, 216);
 }
 
 .deals-heading-button {
+  font-size: 0.75vw;
   justify-content: flex-end;
   background-color: #2874f0;
   border: none;
