@@ -21,13 +21,16 @@
   color: black;
   justify-content: center;
   align-items: center;
+  font-weight: 1.5rem;
 }
 
 .main-navbar-select {
+  font-family: Arial, Helvetica, sans-serif;
   border: none;
   background-color: transparent;
   font-size: 17px;
-  font-weight: lighter;
+  font-weight: 0.5rem;
+  letter-spacing: 0.0001rem;
   margin-bottom: 0.7vw;
   margin-top: 0.5vw;
 }
