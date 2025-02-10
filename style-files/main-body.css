@@ -1,8 +1,8 @@
 .deals-new-beginnings {
-  margin-top: 0.7vw;
+  margin-top: 0.2vw;
   display: grid;
-  grid-template-columns: 73vw 13vw;
-  gap: 1vw;
+  grid-template-columns: 73vw 14.6vw;
+  gap: 0.4vw;
 }
 
 .img-border {
@@ -15,6 +15,9 @@
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
+  border-top: 2px solid rgb(240, 239, 242);
+  border-bottom: 2px solid rgb(234, 233, 236);
+  border-left: 2px solid rgb(243, 242, 244);
 }
 
 .deals-clock-time {
@@ -31,26 +34,33 @@
 
 h3 {
   margin-left: 20px;
+  font-weight: 597;
 }
 
 .time {
   margin-left: 1vw;
   color: #8c8886;
+  font-size: 1rem;
 }
 
 .new-beginnings {
   background-color: #ffffff;
+  display: flex;
   justify-content: center;
+  align-items: center;
+  border-top: 2px solid rgb(240, 239, 242);
+  border-bottom: 2px solid rgb(233, 232, 232);
+  border-right: 3px solid rgb(241, 239, 251);
 }
 
 .new-beginning-img {
-  padding: 2px;
-  height: 100%;
-  width: 100%;
+  height: 98%;
+  width: 97%;
 }
 
 .deals-heading {
-  font-size: 1rem;
+  font-size: 1.1rem;
+  letter-spacing: -0.5px;
   display: flex;
   align-items: center;
   border-bottom: 1px solid rgb(218, 216, 216);
@@ -63,10 +73,10 @@ h3 {
   border: none;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
-  height: 2rem;
-  width: 5rem;
+  height: 2.3rem;
+  width: 6rem;
   border-radius: 0.15vw;
-  margin-right: 1vw;
+  margin-right: 1.4vw;
   font-weight: bold;
 }
 
@@ -86,6 +96,7 @@ h3 {
   gap: 5px;
   padding: 1.2rem 0.4rem 0 0.4rem;
   font-size: 15px;
+  padding-left: 14px;
 }
 
 .deals-body > a {
@@ -116,17 +127,25 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5vw;
+  gap: 0.4vw;
 }
 
 .instruments {
-  width: 87vw;
+  width: 87.8vw;
   background-color: #ffffff;
+  margin-bottom: 7px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid rgb(241, 239, 245);
+  border-left: 2px solid rgb(236, 240, 243);
+  border-top: 2px solid rgb(241, 239, 244);
+  border-right: 2px solid rgb(241, 240, 245);
 }
 
 .instruments-heading {
   display: flex;
   border-bottom: 1px solid #d3d2d2;
+  font-size: 1.1rem;
+  letter-spacing: -0.5px;
 }
 
 .instruments-heading-title > h3 {
@@ -174,7 +193,7 @@ h3 {
   border: none;
   border-radius: 5px 0 0 5px;
   background-color: #ffffff;
-  box-shadow: -5px 0px 10px rgb(145, 144, 144);
+  box-shadow: -5px 0px 10px rgb(237, 236, 237);
   position: absolute;
   margin-top: 100px;
   right: 0;
@@ -189,7 +208,13 @@ h3 {
   opacity: 0.8;
 }
 
-@media screen and (max-width: 1190px) {
+@media screen and (max-width: 655px) {
+  .deals-heading > h3 {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
   .new-beginnings {
     display: none;
   }
@@ -210,13 +235,13 @@ h3 {
   }
 
   .instruments {
-    width: 94vw;
+    width: 93.5vw;
   }
 }
 
 @media screen and (max-width: 730px) {
   .deals-new-beginnings {
-    grid-template-columns: 95vw;
+    grid-template-columns: 94vw;
   }
 
   .next-section-button {
@@ -228,7 +253,7 @@ h3 {
   }
 
   .instruments {
-    width: 94vw;
+    width: 93.5vw;
   }
 }
 
@@ -246,6 +271,12 @@ h3 {
   }
 
   .instruments {
-    width: 94vw;
+    width: 93.5vw;
+  }
+}
+
+@media screen and (max-width: 664px) {
+  .deals-heading > h3 {
+    content: "Deals of The...";
   }
 }

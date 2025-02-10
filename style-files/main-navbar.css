@@ -6,7 +6,9 @@
   gap: 30px;
   justify-content: center;
   background-color: #ffffff;
-  border-bottom: 1px solid rgb(218, 216, 216);
+  border-bottom: 2px solid rgb(232, 233, 235);
+  font-size: 13px;
+  font-weight: bold;
 }
 
 .main-navbar-img {
@@ -28,9 +30,19 @@
   font-family: Arial, Helvetica, sans-serif;
   border: none;
   background-color: transparent;
-  font-size: 17px;
-  font-weight: 0.5rem;
+  font-size: 13px;
+  font-weight: 600;
   letter-spacing: 0.0001rem;
   margin-bottom: 0.7vw;
   margin-top: 0.5vw;
+}
+
+@media screen and (max-width: 1300px) {
+  .main-navbar {
+    justify-content: flex-start;
+  }
+  .main-navbar > a {
+    flex-shrink: 0;
+    text-align: center;
+  }
 }
