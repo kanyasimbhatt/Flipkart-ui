@@ -11,6 +11,7 @@ body {
   background-color: #2874f0;
   align-items: center;
   border-bottom: 2px solid rgb(103, 129, 208);
+  position: sticky;
 }
 
 .navbar-logo {

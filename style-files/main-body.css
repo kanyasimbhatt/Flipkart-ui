@@ -96,7 +96,7 @@ h3 {
   gap: 5px;
   padding: 1.2rem 0.4rem 0 0.4rem;
   font-size: 15px;
-  padding-left: 14px;
+  margin-left: 14px;
 }
 
 .deals-body > a {
@@ -107,6 +107,10 @@ h3 {
   justify-content: center;
   align-items: center;
   font-weight: 1.5rem;
+}
+
+.deals-body > a:hover {
+  opacity: 0.8;
 }
 
 .deals-body-img {
@@ -121,6 +125,16 @@ h3 {
 .offer-name {
   margin-top: 0;
   color: #a5a5a5;
+}
+
+.a-product-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right-arrow {
+  display: none;
 }
 
 .full-body {
@@ -186,6 +200,10 @@ h3 {
   font-weight: 1.5rem;
 }
 
+.instruments-body > a:hover {
+  opacity: 0.8;
+}
+
 .next-section-button {
   height: 100px;
   width: 50px;
@@ -212,9 +230,82 @@ h3 {
   .deals-heading > h3 {
     font-size: 10px;
   }
+
+  .right-arrow {
+    display: inline;
+    height: 20px;
+    width: 20px;
+  }
+
+  .deals-body {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    padding: 0;
+    margin-left: 0;
+  }
+
+  .deals-body > a {
+    display: flex;
+    text-decoration: none;
+    flex-direction: row;
+    align-items: center;
+    gap: 10vw;
+    width: 100%;
+    height: 15vh;
+    overflow-y: hidden;
+    border-bottom: 1px solid #cfcfcf;
+  }
+
+  .deals-body > a:hover {
+    opacity: 0.7;
+  }
+
+  .offers {
+    display: none;
+  }
+
+  .offer-name {
+    display: none;
+  }
+
+  .deals-body-img {
+    height: 100px;
+  }
+
+  .a-product-img {
+    width: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 1vw;
+  }
+  .a-product-img-decor {
+    width: 10%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 0;
+  }
+
+  .a-product-name {
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .a-arrow {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 1vw;
+  }
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 1350px) {
   .new-beginnings {
     display: none;
   }
@@ -228,14 +319,17 @@ h3 {
   }
 
   .deals-body {
-    overflow: scroll;
+    overflow: auto;
   }
   .instruments-body {
-    overflow: scroll;
+    overflow: auto;
   }
 
   .instruments {
-    width: 93.5vw;
+    width: 94vw;
+  }
+  .deals-of-the-day-vertical-layout {
+    width: 94vw;
   }
 }
 
@@ -249,11 +343,15 @@ h3 {
   }
 
   .deals-body {
-    overflow: scroll;
+    overflow: auto;
   }
 
   .instruments {
-    width: 93.5vw;
+    width: 94vw;
+  }
+
+  .deals-of-the-day-vertical-layout {
+    width: 94vw;
   }
 }
 
@@ -267,16 +365,14 @@ h3 {
   }
 
   .deals-body {
-    overflow: scroll;
+    overflow: auto;
   }
 
   .instruments {
-    width: 93.5vw;
+    width: 94vw;
   }
-}
 
-@media screen and (max-width: 664px) {
-  .deals-heading > h3 {
-    content: "Deals of The...";
+  .deals-of-the-day-vertical-layout {
+    width: 94vw;
   }
 }
