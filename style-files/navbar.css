@@ -92,6 +92,7 @@ body {
   border-radius: 1%;
   font-size: 15px;
   cursor: pointer;
+  filter: contrast(1);
 }
 
 .login:hover {
@@ -109,6 +110,7 @@ body {
   font-weight: bold;
   font-size: 0.9rem;
   cursor: pointer;
+  filter: contrast(1);
 }
 
 .more:hover {
@@ -124,6 +126,7 @@ body {
   align-items: center;
   font-size: 0.9rem;
   cursor: pointer;
+  filter: contrast(1);
 }
 
 .cart:hover {
@@ -132,6 +135,7 @@ body {
 
 .cart-img {
   margin-right: 0.5vw;
+  filter: contrast(1);
 }
 
 @media screen and (max-width: 1096px) {
