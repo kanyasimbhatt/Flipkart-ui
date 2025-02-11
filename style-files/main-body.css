@@ -1,3 +1,8 @@
+:root {
+  --off_gray: #a5a5a5;
+  --zeroMargin: 0;
+}
+
 .deals-new-beginnings {
   margin-top: 0.2vw;
   display: grid;
@@ -30,17 +35,20 @@
   width: 50%;
   display: flex;
   justify-content: flex-end;
+  cursor: pointer;
 }
 
 h3 {
   margin-left: 20px;
   font-weight: 597;
+  cursor: pointer;
 }
 
 .time {
   margin-left: 1vw;
   color: #8c8886;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .new-beginnings {
@@ -51,6 +59,7 @@ h3 {
   border-top: 2px solid rgb(240, 239, 242);
   border-bottom: 2px solid rgb(233, 232, 232);
   border-right: 3px solid rgb(241, 239, 251);
+  cursor: pointer;
 }
 
 .new-beginning-img {
@@ -78,6 +87,7 @@ h3 {
   border-radius: 0.15vw;
   margin-right: 1.4vw;
   font-weight: bold;
+  cursor: pointer;
 }
 
 .deals-heading-button:hover {
@@ -118,13 +128,13 @@ h3 {
 }
 
 .offers {
-  margin-top: 0;
+  margin-top: var(--zeroMargin);
   color: #488d49;
 }
 
 .offer-name {
-  margin-top: 0;
-  color: #a5a5a5;
+  margin-top: var(--zeroMargin);
+  color: var(--off_gray);
 }
 
 .a-product-name {
@@ -167,11 +177,11 @@ h3 {
 }
 
 .instruments-heading-title {
-  width: 50%;
+  width: 80%;
 }
 
 .instruments-heading-button {
-  width: 50%;
+  width: 20%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -179,6 +189,9 @@ h3 {
 
 .shop-now {
   margin-left: 20px;
+  margin-top: var(--zeroMargin);
+  color: var(--off_gray);
+  cursor: pointer;
 }
 
 .instruments-body {
@@ -237,7 +250,8 @@ h3 {
     width: 20px;
   }
 
-  .deals-body {
+  .deals-body,
+  .instruments-body {
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -246,7 +260,8 @@ h3 {
     margin-left: 0;
   }
 
-  .deals-body > a {
+  .deals-body > a,
+  .instruments-body > a {
     display: flex;
     text-decoration: none;
     flex-direction: row;
@@ -272,28 +287,17 @@ h3 {
 
   .deals-body-img {
     height: 100px;
-  }
-
-  .a-product-img {
-    width: 10%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding-left: 1vw;
-  }
-  .a-product-img-decor {
-    width: 10%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding-left: 0;
+    width: 90px;
+    object-fit: contain;
   }
 
   .a-product-name {
-    width: 70%;
+    width: 80%;
     display: flex;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    gap: 4px;
   }
 
   .a-arrow {
@@ -302,6 +306,14 @@ h3 {
     justify-content: flex-end;
     align-items: center;
     padding-right: 1vw;
+  }
+
+  .time {
+    display: none;
+  }
+
+  .img-border {
+    display: none;
   }
 }
 
