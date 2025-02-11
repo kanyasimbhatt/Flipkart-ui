@@ -15,7 +15,7 @@ body {
 }
 
 .navbar-logo {
-  height: 180px;
+  height: auto;
   width: 80px;
   margin-right: 0.5rem;
 }
@@ -27,6 +27,7 @@ body {
   justify-content: flex-end;
   align-items: center;
   height: 10px;
+  gap: 0.5vw;
 }
 
 .hamburger {

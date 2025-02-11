@@ -25,6 +25,8 @@
   align-items: center;
   font-weight: 1.5rem;
   cursor: pointer;
+  margin-top: 0.1vw;
+  margin-bottom: 0.1vw;
 }
 
 .main-navbar-select {
