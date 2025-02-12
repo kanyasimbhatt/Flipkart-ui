@@ -243,6 +243,9 @@ h3 {
 }
 
 @media screen and (max-width: 655px) {
+  .instruments {
+    padding-bottom: 0;
+  }
   .deals-heading > h3 {
     font-size: 10px;
   }
@@ -342,6 +345,7 @@ h3 {
 
   .instruments {
     width: 94vw;
+    padding-bottom: 0;
   }
   .deals-of-the-day-vertical-layout {
     width: 94vw;
