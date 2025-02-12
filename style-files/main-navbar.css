@@ -1,3 +1,7 @@
+.main-navbar::-webkit-scrollbar {
+  width: 0;
+}
+
 .main-navbar {
   overflow: auto;
   width: 100%;
