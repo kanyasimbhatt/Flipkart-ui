@@ -24,6 +24,10 @@
   font-weight: 1.5rem;
 }
 
+.main-navbar > a:hover {
+  opacity: 0.8;
+}
+
 .main-navbar-select {
   font-family: Arial, Helvetica, sans-serif;
   border: none;
