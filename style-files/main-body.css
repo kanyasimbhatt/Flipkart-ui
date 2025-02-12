@@ -1,6 +1,7 @@
 :root {
   --off_gray: #a5a5a5;
   --zeroMargin: 0;
+  --bg-color: #ffffff;
 }
 
 .deals-body::-webkit-scrollbar {
@@ -25,7 +26,7 @@
 }
 
 .deals-of-the-day {
-  background-color: #ffffff;
+  background-color: var(--bg-color);
   display: flex;
   flex-direction: column;
   border-top: 2px solid rgb(240, 239, 242);
@@ -60,7 +61,7 @@ h3 {
 }
 
 .new-beginnings {
-  background-color: #ffffff;
+  background-color: var(--bg-color);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -165,7 +166,7 @@ h3 {
 
 .instruments {
   width: 87.8vw;
-  background-color: #ffffff;
+  background-color: var(--bg-color);
   margin-bottom: 7px;
   padding-bottom: 15px;
   border-bottom: 2px solid rgb(241, 239, 245);
@@ -233,7 +234,7 @@ h3 {
   z-index: 1;
   border: none;
   border-radius: 5px 0 0 5px;
-  background-color: #ffffff;
+  background-color: var(--bg-color);
   box-shadow: -5px 0px 10px rgb(237, 236, 237);
   position: absolute;
   margin-top: 100px;
