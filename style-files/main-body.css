@@ -3,6 +3,14 @@
   --zeroMargin: 0;
 }
 
+.deals-body::-webkit-scrollbar {
+  width: 0;
+}
+
+.instruments-body::-webkit-scrollbar {
+  width: 0;
+}
+
 .deals-new-beginnings {
   margin-top: 0.2vw;
   display: grid;
@@ -40,7 +48,7 @@
 
 h3 {
   margin-left: 20px;
-  font-weight: 597;
+  font-weight: 550;
   cursor: pointer;
 }
 
