@@ -16,6 +16,7 @@ body {
   align-items: center;
   border-bottom: 2px solid rgb(103, 129, 208);
   position: fixed;
+  z-index: 1;
 }
 
 .navbar-logo {
