@@ -159,15 +159,15 @@ body {
   .login {
     display: none;
   }
+
+  .hamburger {
+    display: inline;
+  }
 }
 
 @media screen and (max-width: 640px) {
   .searchbar-searchlogo {
     display: none;
-  }
-
-  .hamburger {
-    display: inline;
   }
 }
 
