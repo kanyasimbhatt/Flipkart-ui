@@ -404,3 +404,60 @@ h3 {
     width: 94vw;
   }
 }
+
+@media screen and (max-width: 370px) {
+  .deals-heading-button {
+    display: none;
+  }
+
+  .deals-clock-time {
+    width: 100%;
+  }
+  h3 {
+    font-size: medium;
+  }
+
+  .deals-body > p {
+    font-size: smaller;
+  }
+
+  .deals-body-img {
+    height: 8vh;
+  }
+
+  .shop-now {
+    display: none;
+  }
+
+  .deals-body > a {
+    overflow: hidden;
+    margin-left: 2vw;
+  }
+
+  .instruments-body > a {
+    overflow: hidden;
+  }
+
+  .a-product-name {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 220px) {
+  .right-arrow {
+    display: none;
+  }
+  .deals-body > a {
+    font-size: x-small;
+  }
+
+  .instruments-body > a {
+    font-size: x-small;
+  }
+}
+
+@media screen and (max-height: 630px) {
+  .deals-body-img {
+    height: 10vh;
+  }
+}
