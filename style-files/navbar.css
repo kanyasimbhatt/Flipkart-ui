@@ -45,7 +45,7 @@ body {
 }
 
 .hamburger {
-  margin-right: 0.9vw;
+  margin-right: 25px;
   display: none;
   height: 1.5rem;
   width: 1.5rem;
