@@ -9,8 +9,11 @@
   grid-template-columns: repeat(8, 100px) 150px;
   gap: 30px;
   justify-content: center;
-  background-color: #ffffff;
-  border-bottom: 1px solid rgb(218, 216, 216);
+  background-color: var(--bg-color);
+  border-bottom: 2px solid rgb(232, 233, 235);
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 3.5rem;
 }
 
 .main-navbar-img {
@@ -26,6 +29,9 @@
   justify-content: center;
   align-items: center;
   font-weight: 1.5rem;
+  cursor: pointer;
+  margin-top: 0.1vw;
+  margin-bottom: 0.1vw;
 }
 
 .main-navbar > a:hover {
@@ -36,9 +42,20 @@
   font-family: Arial, Helvetica, sans-serif;
   border: none;
   background-color: transparent;
-  font-size: 17px;
-  font-weight: 0.5rem;
+  font-size: 13px;
+  font-weight: 600;
   letter-spacing: 0.0001rem;
   margin-bottom: 0.7vw;
   margin-top: 0.5vw;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1300px) {
+  .main-navbar {
+    justify-content: flex-start;
+  }
+  .main-navbar > a {
+    flex-shrink: 0;
+    text-align: center;
+  }
 }
