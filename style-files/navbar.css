@@ -45,7 +45,7 @@ body {
 }
 
 .hamburger {
-  margin-right: 0.9vw;
+  margin-right: 25px;
   display: none;
   height: 1.5rem;
   width: 1.5rem;
@@ -153,15 +153,15 @@ body {
     display: flex;
     justify-content: center;
   }
-
-  .hamburger {
-    display: inline;
-  }
 }
 
 @media screen and (max-width: 720px) {
   .login {
     display: none;
+  }
+
+  .hamburger {
+    display: inline;
   }
 }
 
