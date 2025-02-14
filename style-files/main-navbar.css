@@ -1,3 +1,7 @@
+.main-navbar::-webkit-scrollbar {
+  width: 0;
+}
+
 .main-navbar {
   overflow: auto;
   width: 100%;
@@ -28,6 +32,10 @@
   cursor: pointer;
   margin-top: 0.1vw;
   margin-bottom: 0.1vw;
+}
+
+.main-navbar > a:hover {
+  opacity: 0.8;
 }
 
 .main-navbar-select {
